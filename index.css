@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Karla-VariableFont_wght';
+    src: url(/font/Karla-VariableFont_wght.ttf);
+}
+body{
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+}
+.price-card{
+    height: 100%;
+    font-family: 'Karla-VariableFont_wght';
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    box-shadow: 5px 5px 30px -5px gray;
+    border-radius: 10px 10px 10px 10px;
+}
+.community{
+    height: 180px;
+    width: 560px;
+    background-color: white;
+    padding: 20px 50px 0px 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+}
+h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 400;
+}
+h3{
+    color:hsl(71, 73%, 54%);
+    font-weight: 400;
+}
+.subscription{
+    display: flex;
+    color: white;
+}
+.monthly{
+    height: 230px;
+    width: 290px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 10px 0px 10px 30px;
+    border-radius: 0px 0px 0px 10px;
+}
+.monthly p{
+    margin: 0;
+}
+.subscription h3{
+    color: white;
+    font-weight: 400;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.why-us{
+    height: 230px;
+    width: 200px;
+    background-color: hsla(179, 62%, 43%, 0.773);
+    padding: 10px 90px 10px 30px;
+    border-radius: 0px 0px 10px 0px;
+}
+button{
+    border: none;
+    height: 40px;
+    width: 255px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 5px 5px 20px -5px rgb(132, 132, 132);
+    margin-top: 40px;
+}
